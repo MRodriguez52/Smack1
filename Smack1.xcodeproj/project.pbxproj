@@ -16,6 +16,7 @@
 		7040BED72109761B0014B806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7040BED62109761B0014B806 /* Assets.xcassets */; };
 		7040BEDA2109761B0014B806 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7040BED82109761B0014B806 /* LaunchScreen.storyboard */; };
 		7042AC3521175C78008A4D03 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7042AC3421175C78008A4D03 /* LoginVC.swift */; };
+		7042AC3721177DE9008A4D03 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7042AC3621177DE9008A4D03 /* CreateAccountVC.swift */; };
 		7091279E211564E2007FD072 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7091279D211564E2007FD072 /* Constants.swift */; };
 		70AAAB73210FBA470053B6C5 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AAAB72210FBA470053B6C5 /* GradientView.swift */; };
 /* End PBXBuildFile section */
@@ -34,6 +35,7 @@
 		7040BED92109761B0014B806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7040BEDB2109761B0014B806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7042AC3421175C78008A4D03 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		7042AC3621177DE9008A4D03 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		7091279D211564E2007FD072 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		70AAAB72210FBA470053B6C5 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		938308A866F1A4158EC3C697 /* Pods_Smack1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +87,7 @@
 				703C0543210EAFB3000932FE /* ChatVC.swift */,
 				703C0545210EAFDD000932FE /* ChannelVC.swift */,
 				7042AC3421175C78008A4D03 /* LoginVC.swift */,
+				7042AC3621177DE9008A4D03 /* CreateAccountVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			files = (
 				703C0546210EAFDD000932FE /* ChannelVC.swift in Sources */,
 				703C0544210EAFB3000932FE /* ChatVC.swift in Sources */,
+				7042AC3721177DE9008A4D03 /* CreateAccountVC.swift in Sources */,
 				7042AC3521175C78008A4D03 /* LoginVC.swift in Sources */,
 				70AAAB73210FBA470053B6C5 /* GradientView.swift in Sources */,
 				7040BED0210976190014B806 /* AppDelegate.swift in Sources */,
